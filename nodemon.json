@@ -1,0 +1,5 @@
+{
+    "env":{
+        "MONGP_ATLAS_PW": "node-rest-shop"
+    }
+}
