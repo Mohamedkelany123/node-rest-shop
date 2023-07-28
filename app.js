@@ -12,6 +12,7 @@ mongoose.Promise = global.Promise;
 
 
 app.use(morgan('dev'));
+app.use(express.static('uploads'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
